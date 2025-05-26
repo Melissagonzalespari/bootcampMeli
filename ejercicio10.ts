@@ -1,5 +1,5 @@
 //a ) Create a name function to calculate the area of a circle based on its radius as parameter.
- 
+/* Es mejor dehar espacios alrededor del caracter = o el * o el +, despues del caracater : y antes del caracter { */
 function CalculateCircleArea(radius: number):number{
 const pi:number=Math.PI;
   // calcular area
@@ -11,8 +11,8 @@ console.log(`This is the area ${resultados} when the circle radius is ${reqradiu
  
 //b) funcion para cacular el perimetro del rectangulo
 function CalculatePerimeterRectang(length:number,height:number):number {
-    length=10;
-    height=20;
+    length=10; // esta no se requiere dado que el valor lo da el parametro como tal
+    height=20; // esta no se requiere dado que el valor lo da el parametro como tal
     return 2*(length+height);
  
 }
@@ -32,7 +32,7 @@ console.log(`The volumen of  lenght ${reqvolumen[0]} is:${Calculatevolumencube} 
 // Exercise 2 Recursive Fibonacci sequence
 // recursive function that return the nth fibonacci number
  
-function fibonacci(n:number):number{
+function fibonacci(n:number):number{ // falta la condicion de que no sea el numero mayor a 10
 if (n<=1){
  
     return n;
@@ -53,6 +53,8 @@ for (let i=start;i<=fin;i++ ){
  
 console.log(numeros)
 const evens=numeros.filter(n=>n%50===0);
+
+// quedan pendientes los ultimos dos ejercicios
  
 // a Create an array method call that takes an array of strings and returns an array containing the capitalized
 // of each string
