@@ -1,5 +1,5 @@
 //a ) Create a name function to calculate the area of a circle based on its radius as parameter.
-/* Es mejor dehar espacios alrededor del caracter = o el * o el +, despues del caracater : y antes del caracter { */
+/* Es mejor dehar espacios alrededor del caracter = o el * o el +, despues del caracater : y antes del caracter { y despues de ) */
 function CalculateCircleArea(radius: number):number{
 const pi:number=Math.PI;
   // calcular area
